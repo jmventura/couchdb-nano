@@ -1037,6 +1037,7 @@ declare namespace nano {
     descending?: boolean;
     end_key?: string;
     end_key_doc_id?: string;
+    include_docs?: boolean;
     inclusive_end?: boolean;
     key?: string;
     keys?: string; // This can be string[] too ???
